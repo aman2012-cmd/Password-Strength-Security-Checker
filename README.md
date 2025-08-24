@@ -18,26 +18,43 @@ This is a modern desktop application for analyzing password strength and securit
 ## ⚙️ How It Works
 The application operates on a client-server model, but everything runs on your local machine.
 
-**1. Frontend (Java):** The Java Swing GUI captures the password input.
-**2. Communication:** The Java application spawns a new process that runs the Python script, passing the password as a command-line argument.
-**3. Backend (Python):** The PasswordChecker.py script performs all the heavy lifting:
+**1. Frontend (Java):** The Java Swing GUI captures the password input.  
+
+**2. Communication:** The Java application spawns a new process that runs the Python script, passing the password as a command-line argument.  
+
+**3. Backend (Python):** The PasswordChecker.py script performs all the heavy lifting:  
+
  - It calculates the entropy of the password using logarithmic functions.
+   
  - It validates the password against a set of predefined rules.
+   
  - It securely queries the HIBP API to check for breaches without transmitting the full password.
-**4. Data Exchange:** The Python script returns a JSON object containing the strength rating, entropy value, advice, and breach status.
-**5. GUI Update:** The Java application reads the JSON output and updates the GUI in real-time.
+   
+**4. Data Exchange:** The Python script returns a JSON object containing the strength rating, entropy value, advice, and breach status.  
+
+**5. GUI Update:** The Java application reads the JSON output and updates the GUI in real-time.  
+
 
 ## 🚀 Getting Started
-**Prerequisites**
-*Java Development Kit (JDK) 8 or higher:* The Java application requires the JDK to compile and run.
-*Python 3.x:* The core logic is written in Python.
-*requests Library:* The Python script needs this library to make API calls.
+**Prerequisites**  
+
+*Java Development Kit (JDK) 8 or higher:* The Java application requires the JDK to compile and run.  
+
+*Python 3.x:* The core logic is written in Python.  
+
+*requests Library:* The Python script needs this library to make API calls.  
+
 
 **Installation**
-*1. Clone the Repository:*
-*2. Install Python Dependencies:*
-*3. Configure the Java Path:*
+*1. Clone the Repository:*  
+
+*2. Install Python Dependencies:*  
+
+*3. Configure the Java Path:*  
+
 Open NonScrollingPasswordCheckerUI.java and modify the ProcessBuilder line to point to the correct paths for your Python executable and the PasswordChecker.py script:
-(Remember to use double backslashes \\ for file paths in Java strings.)
-*4. Run the Application:*
+(Remember to use double backslashes \\ for file paths in Java strings.)  
+
+*4. Run the Application:*  
+
 Compile and run the Java file using your IDE or the command line.
