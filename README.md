@@ -4,11 +4,16 @@ This is a modern desktop application for analyzing password strength and securit
 
 ## ✨ Features at a Glance
 
-**- Entropy Calculation:** The application calculates the password's entropy, providing a quantitative measure of its cryptographic strength in bits.
-**- Rule-Based Strength Analysis:** It checks for common best practices, such as a minimum length of 8 characters, and the inclusion of uppercase, lowercase, numbers, and special symbols.
-**- Have I Been Pwned (HIBP) Integration:** Using the HIBP API, the application hashes the first five characters of your password's SHA-1 hash to check for exposure in known data breaches, providing a count if it's found.
-**- Dynamic and Intuitive GUI:** The user interface is designed for clarity, with a non-resizable window, consistent spacing, and an animated color indicator that gives instant visual feedback on password strength.
-**- Decoupled Architecture:** The separation of the Java GUI and the Python logic makes it easy to update the security rules or API integrations in the Python script without needing to recompile the Java application.
+**- Entropy Calculation:** The application calculates the password's entropy, providing a quantitative measure of its cryptographic strength in bits.  
+
+**- Rule-Based Strength Analysis:** It checks for common best practices, such as a minimum length of 8 characters, and the inclusion of uppercase, lowercase, numbers, and special symbols.  
+
+**- Have I Been Pwned (HIBP) Integration:** Using the HIBP API, the application hashes the first five characters of your password's SHA-1 hash to check for exposure in known data breaches, providing a count if it's found.  
+
+**- Dynamic and Intuitive GUI:** The user interface is designed for clarity, with a non-resizable window, consistent spacing, and an animated color indicator that gives instant visual feedback on password strength.  
+
+**- Decoupled Architecture:** The separation of the Java GUI and the Python logic makes it easy to update the security rules or API integrations in the Python script without needing to recompile the Java application.  
+
 
 ## ⚙️ How It Works
 The application operates on a client-server model, but everything runs on your local machine.
