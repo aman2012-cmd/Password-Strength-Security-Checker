@@ -39,24 +39,24 @@ The application operates on a client-server model, but everything runs on your l
 
 **Prerequisites**  
 
-**Java Development Kit (JDK) 8 or higher:** The Java application requires the JDK to compile and run.  
+**- Java Development Kit (JDK) 8 or higher:** The Java application requires the JDK to compile and run.  
 
-**Python 3.x:** The core logic is written in Python.  
+**- Python 3.x:** The core logic is written in Python.  
 
-**requests Library:** The Python script needs this library to make API calls.  
+**- requests Library:** The Python script needs this library to make API calls.  
 
 
 **Installation**  
 
-*1. Clone the Repository:*  
+**1. Clone the Repository:**  
 
-*2. Install Python Dependencies:*  
+**2. Install Python Dependencies:**  
 
-*3. Configure the Java Path:*  
+**3. Configure the Java Path:**  
 
 Open NonScrollingPasswordCheckerUI.java and modify the ProcessBuilder line to point to the correct paths for your Python executable and the PasswordChecker.py script:
 (Remember to use double backslashes \\ for file paths in Java strings.)  
 
-*4. Run the Application:*  
+**4. Run the Application:**  
 
 Compile and run the Java file using your IDE or the command line.
