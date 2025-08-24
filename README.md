@@ -35,17 +35,19 @@ The application operates on a client-server model, but everything runs on your l
 **5. GUI Update:** The Java application reads the JSON output and updates the GUI in real-time.  
 
 
-## 🚀 Getting Started
+## 🚀 Getting Started  
+
 **Prerequisites**  
 
-*Java Development Kit (JDK) 8 or higher:* The Java application requires the JDK to compile and run.  
+**Java Development Kit (JDK) 8 or higher:** The Java application requires the JDK to compile and run.  
 
-*Python 3.x:* The core logic is written in Python.  
+**Python 3.x:** The core logic is written in Python.  
 
-*requests Library:* The Python script needs this library to make API calls.  
+**requests Library:** The Python script needs this library to make API calls.  
 
 
-**Installation**
+**Installation**  
+
 *1. Clone the Repository:*  
 
 *2. Install Python Dependencies:*  
